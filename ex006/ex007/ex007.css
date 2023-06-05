@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+main{
+    width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 50px;  
+    padding-bottom: 40px;  
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+.meio{
+    width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 50px;  
+    padding-bottom: 40px;  
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    box-shadow: 0px 0px 10px black
+}
+
+body{
+    background-color: dodgerblue;
+}
+
+h2{
+    margin-bottom: 20px;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px darkblue;
+}
+
+.xis{
+    font-size: 120px;
+    color: black;
+    text-shadow: 3px 3px 5px dodgerblue;
+    align-items: center;
+}
+   
+#resultado1{
+    font-size: 120px;
+    color: darkblue;
+    text-shadow: 3px 3px 5px dodgerblue;
+    align-items: center;
+}
+
+#resultado3{
+    font-size: 120px;
+    color: darkblue;
+    text-shadow: 3px 3px 5px dodgerblue;
+    align-items: center;
+}
+
+#resultado4{
+    font-size: 120px;
+    color: darkblue;
+    text-shadow: 3px 3px 5px dodgerblue;
+    align-items: center;
+}
+
+#resultado2{
+    font-size: 120px;
+    color: darkblue;
+    text-shadow: 3px 3px 5px dodgerblue;
+    align-items: center;
+}
+
+button{
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    border: transparent;
+    box-shadow: 0px 0px 15px darkblue;
+}
+
+button:hover{
+    background-color: darkblue;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(0, 0, 100);
+   }
+
+   footer{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 15px rgb(2, 2, 106);
+   }
+
+   .botoes{
+    display: flex;
+   }
+
+   .botao{
+    width: 60px;
+    margin-right: 10px;
+   }

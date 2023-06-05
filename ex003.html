@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            width: 10em;
+            position: relative;
+            height: 3.5em;
+            border: 3px ridge #149CEA;
+            outline: none;
+            background-color: transparent;
+            color: rgb(255, 255, 255);
+            transition: 1s;
+            border-radius: 0.3em;
+            font-size: 16px;
+            font-weight: bold;
+            margin-right: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        button::after {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: 3%;
+            width: 95%;
+            height: 40%;
+            background-color: #000000;
+            transition: 0.5s;
+            transform-origin: center;
+        }
+
+        button::before {
+            content: "";
+            transform-origin: center;
+            position: absolute;
+            top: 80%;
+            left: 3%;
+            width: 95%;
+            height: 40%;
+            background-color: #000000;
+            transition: 0.5s;
+        }
+
+        button:hover::before,
+        button:hover::after {
+            transform: scale(0)
+        }
+
+        button:hover {
+            box-shadow: inset 0px 0px 25px #1479EA;
+        }
+
+        h1{
+            text-shadow: 2px 2px 15px #1479EA;
+            color: white;
+        }
+
+        b{
+            color: white;
+        }
+
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Somador de numero</h1>
+    <button onclick="BotaoSomar()">SOMAR</button>
+    <br>
+    <b>Clique no botao acima para somar</b>
+
+    <script>
+        function BotaoSomar() {
+            var valor1 = prompt("Informe o valor 1")
+            var valor2 = prompt("Informe o valor 2")
+            var soma = Number(valor1) + Number(valor2)
+            console.log(`A soma dos dois numeros é: ${soma}`)
+        }
+    </script>
+
+</body>
+
+</html>
